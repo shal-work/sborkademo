@@ -1,0 +1,41 @@
+<svg class="logo" viewBox="0 0 127 36" xmlns="http://www.w3.org/2000/svg">
+    <g class="logo__group-primary">
+        <path d="M20.8679 15.6729C9.34582 15.6729 0 25.0112 0 36.5407H41.7283C41.7283 25.0187 32.3899 15.6729 20.8679 15.6729Z"></path>
+    </g>
+    <g class="logo__group-base">
+        <path d="M12.5211 21.3747V36.5411H6.26074V0H12.5211V14.1454V21.3747Z" class="green1 "></path>
+        <path d="M12.5211 21.3747V36.5411H6.26074V0H12.5211V14.1454V21.3747Z" class="green2 "></path>
+        <path d="M12.5211 21.3747V36.5411H6.26074V0H12.5211V14.1454V21.3747Z" class="green3 "></path>
+        <path d="M12.5211 21.3747V36.5411H6.26074V0H12.5211V14.1454V21.3747Z" class="green4 "></path>
+        <path d="M35.4674 21.3747V36.5411H29.207V0H35.4674V14.1454V21.3747Z" class="brown"></path>
+    </g>
+    <style>
+        .logo__group-primary {
+            fill: #f78f39;
+        }
+        .green1 {
+            transform: translate(35px, 10px) rotate(45deg);
+            fill: green;
+        }
+        .green2 {
+            transform: translate(46px, -12px) rotate(45deg);
+            fill: green;
+        }
+        .green3 {
+            transform: translate(38px, 5px) rotate(-15deg);
+            fill: green;
+        }
+        .green4 {
+            transform: translate(33px, 18px) rotate(-15deg);
+            fill: green;
+        }
+
+        .brown {
+            transform-origin: 10% 100%;
+            transform: translate(3px, -7px) rotate(20deg);
+            fill: SaddleBrown;
+        }
+
+    </style>
+
+</svg>
